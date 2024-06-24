@@ -1,0 +1,25 @@
+div.a{
+    
+    
+    text-align: center;
+}.s1{
+    width: 500px;
+    height: 35px;
+}
+.s2{
+
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 12px;
+    align-items;
+    background-color: pink;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+}
+    
+.dropdown-content{visibility: hidden;}
+img:hover+.dropdown-content{visibility: visible;}

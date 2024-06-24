@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>My First name is <span id="first"></span></h4>
+    <h4>My Last name is <span id="last"></span></h4>
+    <h4>My Full name is <span id="full"></span></h4>
+    <script>
+        let fname;
+        fname="Sreekala";
+        document.getElementById("first").innerHTML=fname
+        let space;
+        space=" "
+        let lname;
+        lname=" J S";
+        document.getElementById("last").innerHTML=lname
+        let fullname;
+        flname=fname+space+lname;
+        document.getElementById("full").innerHTML=flname
+        document.write("<br>",flname.toUpperCase());
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //program to check the given number is Positive or negative
+
+    let c = -20;
+    if (c > 0) {
+        document.write("<br> The given number is positive");
+    }
+    else if (c < 0) {
+        document.write("<br> The given number is negative");
+    }
+    else {
+        document.write("<br> The given number is 0")
+    }
+
+    //program to check from two given integers whether one of them is 8 or their sum or difference is 8.
+
+    let d = 18;
+    e = 5;
+    switch (true)
+     {
+        case (d === 8 || e === 8):
+            document.write("<br>One of the numbers is 8.");
+            break;
+        case (d + e === 8):
+            document.write("<br>The sum of the numbers is 8.");
+            break;
+        case (Math.abs(d - e) === 8):
+            document.write("<br>The difference between the numbers is 8.");
+            break;
+        default:
+            document.write("<br>one of the conditions are met.");
+    }
+
+    //program to compute the sum of the two given integers.
+
+    let m=40;
+    n=40;
+    o=m+n;
+    let p = (o >= 50 && o <= 80) ? 65 : 80;
+    document.write("<br>",p)
+
+
+    //program to check whether two numbers are in the range 40..60 or 70..100 inclusive
+
+    let num=50;
+    if ((num >= 40 && num <= 60) || (num >= 70 && num <= 100)) {
+        document.write("<br> True")
+    } else {
+        document.write("<br> False")
+    }
+
+    // program to check a pair of numbers and return true if one of the numbers is 50 or if their sum is 50.
+
+    let n1=50;n2=30;
+    if(n1 == 50 ||n2 == 50){
+    document.write("<br> One of the number is 50")
+    }
+    else if (n1+n2 == 50){
+        document.write("<br> The sum of the numbers is 50")
+    }
+    else{
+        document.write("<br>false")
+    }
+
+    //program to check whether a given positive number is a multiple of 3 or 7.
+
+    let q=21;
+        if (q <= 0) {
+        document.write("<br>false")
+    }
+    else if (q % 3 === 0 || q % 7 === 0) {
+        document.write("<br> The given number is a multiple of 3 or 7")
+    } else {
+        document.write("<br> false")
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="list"></div>
+
+    <script>
+        let x=document.createElement("ul")
+        x.id="list1";
+        document.getElementById("list").appendChild(x);
+        let y= document.createElement("li")
+        y.innerHTML="Titanic";
+        document.getElementById("list").appendChild(y);
+        let z= document.createElement("li")
+        z.innerHTML="The Goat Life";
+        document.getElementById("list").appendChild(z);
+        let a= document.createElement("li")
+        a.innerHTML="Nandanam";
+        document.getElementById("list").appendChild(a);
+        let b= document.createElement("li")
+        b.innerHTML="Jeb We Met";
+        document.getElementById("list").appendChild(b);
+        let c= document.createElement("li")
+        c.innerHTML="VeerZaara";
+        document.getElementById("list").appendChild(c);
+
+    </script>
+</body>
+</html>

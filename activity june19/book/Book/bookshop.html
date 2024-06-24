@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .textCenter {
+            text-align: center;
+            background-color: rgb(76, 192, 238);
+            position: sticky;
+            top: 10px;
+            ;
+        }
+
+        #tagLine {
+            color: rgb(248, 16, 16);
+            font-weight: bolder;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            text-decoration: underline;
+            text-decoration-style: double;
+            text-shadow: -1px -2px 3px rgb(7, 0, 0);
+            text-decoration-color: rgb(56, 5, 240);
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(192, 221, 219);">
+    <ul class="s">
+        <li><a href="bookshop.html">HOME</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="contactus.html" class="ss">CONTACT US</a></li>
+    </ul>
+    <div class="textCenter">
+        <h1>THE BOOK HIVE </h1>
+        <p id="tagLine">Explore the world through Books </p>
+
+
+    </div>
+
+    <p class="a"> The more that you read, the more things you will know.
+        The more that you learn, the more places you'll go.
+        So we are welcoming you all to the world of reading.
+    </p>
+    <img src="./Images/wats.jpeg" style="width: 100px;height: 50px;position: sticky; top: 100px` 1q;"">
+    <h2>List of Books</h2><br><br>
+            
+    <div id="list"></div>
+
+    <script>
+        let x=document.createElement("select")
+        x.id="list1";
+        document.getElementById("list").appendChild(x);
+        let y= document.createElement("option")
+        y.innerHTML="Harry Potter";
+        document.getElementById("list1").appendChild(y);
+        let z= document.createElement("option")
+        z.innerHTML="Anglo Saxon Poetry";
+        document.getElementById("list1").appendChild(z);
+        let a= document.createElement("option")
+        a.innerHTML="A Guide to Old English";
+        document.getElementById("list1").appendChild(a);
+        let b= document.createElement("option")
+        b.innerHTML="Word-Hoard";
+        document.getElementById("list1").appendChild(b);
+        let c= document.createElement("option")
+        c.innerHTML="Beowulf";
+        document.getElementById("list1").appendChild(c);
+
+    </script>
+
+        <ul>
+            <li>
+                
+                Harry Potter:</li>
+                <div class=" st">
+    <img src="./Images/Untitled.jpeg">
+
+    <p> Harry Potter is a series of seven fantasy novels written by British author J. K.
+        Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione
+        Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The
+        main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become
+        immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all
+        wizards and Muggles (non-magical people).</p>
+    </div>
+
+
+
+    <li>
+        Anglo Saxon Poetry:</li>
+    <div class="st">
+        <img src="./Images/aglo.jpeg">
+        <p>
+            Anglo-saxon poetry was circulated orally in a preliterate society, and gathered
+            at last into books over some six centuries before the Norman Conquest ended English independence.
+            Against the odds some of these books survive today. This anthology of prose translations covers most
+            of the surviving poetry, revealing a tradition which is outstanding among early medieval literatures
+            for its sophisticated exploration of the human condition in a mutable, finite, but wonderfully
+            diverse and meaning-filled world.
+        </p>
+    </div>
+
+
+
+
+    <li>A Guide to Old English:</li>
+    <div class="st">
+        <img src="./Images/old english.jpeg">
+        <p>
+            A Guide to Old English has established itself as the most thorough and most
+            stimulating introduction to the language of Anglo-Saxon England. This revised edition adds ten basic
+            texts, together with full notes and a comprehensive glossary, which convert the Guide into a
+            self-contained course book for students beginning a study of Old English. The texts, such as
+            Cynewulf and Cyneheard, the story of Caedmon and the conversion of Edwin, are those that have
+            traditionally been chosen by teachers precisely becasue they offer the best introduction to the
+            literature and culture of the time.
+        </p>
+    </div>
+
+    <li>Word-Hoard: </li>
+    <div class="st">
+        <img src="./Images/word hoard.jpeg">
+
+        <p>
+            Designed for introductory courses in Old English, Word-Hoard offers a vocabulary of some
+            2000 words drawn from the poems that beginning students normally read. Exploiting the natural
+            curiosity we feel about our own language, Stephen Barney draws etymological connections, provides
+            mnemonic aids, and introduces the student to cultural and literary concepts as well as words. This
+            second edition of his valuable book has been completely reset in a format that improves its clarity
+            and conciseness.
+        </p>
+    </div>
+
+
+
+    <div class="st">
+        <img src="./Images/beowul.jpeg">
+        <p>
+            <li>Beowulf:</li> A Translation and Commentary:In a note discovered among his papers, J.R.R. Tolkien claims
+            to have "[put] it first into Old English".[3] However, Christopher Tolkien observes that this
+            sequence of events is inconsistent with the textual evidence, since the earliest manuscript of the
+            Modern English text was revised into a form that corresponds in several places to the Old English
+            text, which was thus probably based on a version of the Modern English tale.[7] The Old English
+            version as published is furthermore incomplete, breaking off before either of the two companions
+            faces Grendel.
+        </p>
+    </div>
+    <br><br>
+
+    <P>
+    <h1>Legends</h1>
+    </P><br><br>
+    <div class="row">
+        <div class="col1">
+
+
+            <img src="./Images/J K Rowling.jpeg" class="new">
+            <p><span style="font-weight: bold;">Joanne Rowling</span> was born on July 31, 1965, in Yate, near Bristol,
+                England.
+                She grew up in England and in Chepstow, Gwent, Wales. She loved reading and wrote her first story at the
+                age of six.
+                After graduating from the University of Exeter in 1986, Rowling began working for Amnesty International
+                in London, England.
+                magic adventure while sitting in cafés and pubs. In the early 1990s she traveled to Portugal to teach
+                English as a foreign language.
+                After a brief marriage and the birth of her daughter, she returned to the United Kingdom, settling in
+                Edinburgh, Scotland.
+                Living on public assistance between work as a French teacher, she continued to write, often on scraps of
+                paper and napkins.
+
+            </p>
+        </div>
+        <br><br>
+        <div class="col2">
+            <img src="./Images/Mark Twain.jpeg" class="new">
+            <p><span style="font-weight: bold;">Samuel Clemens</span> was born on November 30‚ 1835 in Florida‚
+                Missouri‚
+                the sixth of seven children. At age 4‚ Sam and his family moved to the small
+                frontier town of Hannibal‚ Missouri‚ on the banks of the Mississippi River.
+                Missouri‚ at the time‚ was a fairly new state (it had gained statehood in 1821)
+                and made up part of the country’s western border. It was also a state that took part in slavery.
+                Sam’s father owned one enslaved person, and his uncle owned several. In fact‚ it was on his uncle’s
+                farm that Sam spent many boyhood summers playing in the enslaved people’s quarters‚ listening to tall
+                tales and the spirituals that he would enjoy throughout his life. </p><br><br>
+        </div>
+        <div class="col1">
+            <img src=" ./Images/Tolstoy.jpeg" class="new">
+            <p>
+                <span style="font-weight: bold;">Leo Tolstoy</span>
+                (born August 28 [September 9, New Style], 1828, Yasnaya Polyana,
+                Tula province, Russian Empire—died November 7 [November 20], 1910, Astapovo, Ryazan province) was a
+                Russian author,
+                a master of realistic fiction and one of the world’s greatest novelists.
+
+                Tolstoy is best known for his two longest works, War and Peace (1865–69) and
+                Anna Karenina (1875–77), which are commonly regarded as among the finest novels ever written.
+                War and Peace in particular seems virtually to define this form for many readers and critics.
+                Among Tolstoy’s shorter works, The Death of Ivan Ilyich (1886) is usually classed among the best
+                examples of the novella.
+                Especially during his last three decades Tolstoy also achieved world renown as a moral and religious
+                teacher.
+                His doctrine of nonresistance to evil had an important influence on Gandhi. Although Tolstoy’s religious
+                ideas no
+                longer command the respect they once did, interest in his life and personality has, if anything,
+                increased over the years.
+            </p>
+        </div>
+
+
+    </div>
+    <br><br>
+
+    </ul>
+    <h3>
+        <center>Book Details
+    </h3>
+    </center> <br><br>
+
+    <table>
+        <tr>
+            <th>SI.No</th>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Harry Potter</td>
+            <td>J K Rowling</td>
+            <td>9783435764677545</td>
+            <td>250</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Anglo Saxon Poetry</td>
+            <td>Caedmon,Bede</td>
+            <td>9783435565665</td>
+            <td>350</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td> A Guide to Old English</td>
+            <td>Bruce Mitchell</td>
+            <td>965435565665</td>
+            <td>400</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Word-Hoard </td>
+            <td>Stephen Barney</td>
+            <td>9654365445665</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Beowulf </td>
+            <td>Beowulf poet</td>
+            <td>965436545665</td>
+            <td>200</td>
+        </tr>
+
+
+
+
+    </table><br>
+
+
+    <a href="./bookonline.html"> Book Online</a>
+
+
+    <a href="https://www.amazon.in" class="o">Buy through Amazon</a>
+
+
+
+</body>
+
+</html>

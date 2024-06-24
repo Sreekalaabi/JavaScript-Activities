@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let x=2
+    cube=x*x*x
+    square=x*x
+    document.write(`cube of ${x} is `,cube+"<br>")
+    document.write(`square of ${x} is `,square+"<br>")
+
+    let temp=24
+    far=(temp*9/5) + 32
+    document.write(`the temperature, ${temp}C is equal to ${far}F `,"<br>")
+
+    let z,y,m
+    z=10,y=15
+    document.write(`before swapping ,z=${z},y=${y}`,"<br>")
+    m=z
+    z=y
+    y=m
+    document.write(`After swapping ,z=${z},y=${y}`,"<br>")
+
+    z=20,y=10
+    document.write(`before swapping w/o using tem.variable ,z=${z},y=${y}`,"<br>")
+    z=z+y
+    y=z-y
+    z=z-y
+    document.write(`After swapping w/o using tem.variable ,z=${z},y=${y}`,"<br>")
+</script>
+</body>
+</html>

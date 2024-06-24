@@ -1,0 +1,36 @@
+
+   
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=5;b=-8;c=5;
+        // function findRoots(a, b, c) {
+    // Calculate the discriminant
+    let discriminant = b * b - 4 * a * c;
+    
+    // Check if the discriminant is positive, zero, or negative
+    if (discriminant > 0) {
+        // Two real and distinct roots
+        let root1 = (-b + (discriminant)) / (2 * a);
+        let root2 = (-b - (discriminant)) / (2 * a);
+        document.write(`The roots are real and distinct: Root 1 = ${root1}, Root 2 = ${root2}`);
+    } else if (discriminant === 0) {
+        // One real root (both roots are the same)
+        let root = -b / (2 * a);
+        document.write(`The root is real and equal: Root = ${root}`) ;
+    } else {
+        // Complex roots
+        let realPart = -b / (2 * a);
+        let imaginaryPart = (-discriminant) / (2 * a);
+        document.write(`The roots are complex: Root 1 = ${realPart} + ${imaginaryPart}i, Root 2 = ${realPart} - ${imaginaryPart}i`);
+    }
+
+    </script>
+</body>
+</html>
