@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let c=256; b=0; 
+        for (i=c;i!=0;i=Math.floor(i/10)) {
+            a= i%10;
+            b= b+(a*a*a)
+        
+        }
+        //document.write(b)
+
+
+       if (b==c) {
+        document.write (`${b} = ${c}, armstrong number`)
+       }
+
+       else  {
+        document.write (" not armstrong number")
+       }
+
+        
+    </script>
+</body>
+</html>

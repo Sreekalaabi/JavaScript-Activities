@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //program to read first 10 numbers from the and find their sum and average.
+
+        let s = 0;
+        for (i = 1; i <= 10; i++) {
+            s = s + i;
+            a = s / 10;
+        }
+        document.write("<br> The sum of first 10 natural number is ", s)
+        document.write("<br> The average of the first ten natural number is ", a)
+
+        //program to display the cube of the numbers from 10 to 25.
+
+        for (i = 10; i <= 25; i++) {
+            let c = i * i * i;
+            document.write("<br> ", c)
+        }
+
+        //program to display the multiplication table for a given integer.
+
+        let n = 12;
+        for (i = 1; i <= 10; i++) {
+            let m = n * i;
+            document.write(`<br>${n}*${i}=${m}`);
+        }
+
+        //Program to reverse a number
+
+        let n1 = 546;
+        let b = 0;
+        for (i = n1; i !== 0; i = Math.floor(i / 10)) {
+            let r = i % 10;
+            b = b * 10 + r;
+        }
+        document.write(`<br>Reverse of the given number is ${b}`);
+
+      
+
+
+
+    </script>
+</body>
+
+</html>
