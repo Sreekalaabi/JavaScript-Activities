@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    margin: 5px 0;
+    
+}
+
+.watched {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.priority-high {
+    color: red;
+}
+
+.priority-medium {
+    color: yellow;
+}
+
+.priority-low {
+    color: green;
+}
+.movie {
+    color: rgb(173, 235, 235);
+
+}
