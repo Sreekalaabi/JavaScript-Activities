@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    margin: 5px 0;
+    
+}
+
+
+.level-easy {
+    color: rgb(39, 129, 21);
+}
+
+.level-moderate{
+    color: rgb(233, 118, 41);
+}
+
+.level-hard {
+    color: rgb(228, 28, 14);
+}
+.recipe {
+    color: rgb(173, 235, 235);
+
+}
+.completed{
+    text-decoration: line-through;
+    color: grey;
+}
