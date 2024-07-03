@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="fruit">EnterFruit Name</label>
+    <input type="text" id="fruitInput">
+    <button onclick="addFruit()">Add</button>
+
+    <!-- <h3>The Entered fruit is:</h3>
+    <p id="arrayDisplay"></p> -->
+
+    <label for="indexSelect">Index</label>
+    <select id="indexSelect" onchange="displayElementByIndex()">
+
+    </select>
+    <span>The fruit is: <span id="indexDisplay"></span></span><br><br>
+
+
+    <script>
+        let array = [];
+
+        function addFruit() {
+            const fruit = document.getElementById("fruitInput").value;
+            if (fruit !== "") {
+                array.push(fruit);
+                document.getElementById("fruitInput").value = "";
+                displayArray();
+                
+            }
+        }
+
+        function displayArray() {
+           // document.getElementById("arrayDisplay").innerHTML = array.join(", ");
+            IndexSelect();
+        }
+
+        function IndexSelect() {
+            const select = document.getElementById("indexSelect");
+            select.innerHTML = "";
+            for (let i = 0; i < array.length; i++) {
+                const option = document.createElement("option");
+                option.value = i;
+                option.text = i;
+                select.appendChild(option);
+            }
+        }
+
+        
+        function displayElementByIndex() {
+            const index = document.getElementById("indexSelect").value;
+            const fruit = array[index];
+            if (fruit !== undefined) {
+                document.getElementById("indexDisplay").innerText = fruit;
+            }
+            // } else {
+            //     document.getElementById("indexDisplay").innerText = "Invalid index";
+            // }
+        }
+    </script>
+</body>
+
+</html

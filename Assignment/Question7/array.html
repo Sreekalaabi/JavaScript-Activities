@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Enter element:</h2>
+    <input type="text" id="elementInput">
+    <button onclick="addElement()">Add</button>
+
+    <h3>The Entered array is:</h3>
+    <p id="arrayDisplay"></p>
+
+    <label for="indexSelect">Index</label>
+    <select id="indexSelect" onchange="displayElementByIndex()">
+        
+    </select>
+    <span>The element is: <span id="indexDisplay"></span></span><br><br>
+    
+    
+        
+        <label for="searchInput">Search:</label>
+        <input type="text" id="searchInput">
+        <button onclick="searchElement()">Search</button>
+        <p id="search"></p>
+    
+
+    <h4>The array in sorted order is:</h4>
+    <p id="sortedArrayDisplay"></p>
+
+    <h4>The reversed array is:</h4>
+    <p id="reversedArrayDisplay"></p>
+
+    <script src="array.js"></script>
+</body>
+</html

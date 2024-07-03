@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    margin: 5px 0;
+    
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.category-food {
+    color: rgb(10, 196, 19);
+}
+
+.category-transport{
+    color: rgb(27, 14, 204);
+}
+
+.category-entertainment {
+    color: rgb(132, 13, 143);
+}
+.expense {
+    color: rgb(199, 154, 197);
+
+}

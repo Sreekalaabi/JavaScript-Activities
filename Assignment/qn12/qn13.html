@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dare Selector</title>
+    
+</head>
+<body>
+    <label for="dareDropdown">Select a dare:</label>
+    <select id="dareDropdown" onchange="displayDare()">
+        <option value="" selected >Select an option</option>
+    </select>
+    <p id="result"></p>
+        <script>
+            const dares = [
+            "Speak for 5 minutes",
+            "Do 20 push-ups",
+            "Sing a song loudly",
+            "Dance for 1 minute",
+            
+        ];
+
+        function displayDare() {
+            let selectedIndex = document.getElementById("dareDropdown").value;
+            let selectedDare = dares[selectedIndex];
+            document.getElementById("result").textContent = "Dare: " + selectedDare;
+        }
+
+            const dropdown = document.getElementById("dareDropdown");
+            for (let i = 0; i < dares.length; i++) {
+                let option = document.createElement("option");
+                option.value = i;
+                option.textContent = "Dare " + (i + 1);
+                dropdown.appendChild(option);
+            }
+        </script>
+    
+</body>
+</html>
